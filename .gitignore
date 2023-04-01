@@ -134,6 +134,5 @@ dmypy.json
 # ignore csvs and raw text files
 text/
 .csv
-./processed/*.csv
 processed/
 flagged/
