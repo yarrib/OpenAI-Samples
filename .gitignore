@@ -135,3 +135,5 @@ dmypy.json
 text/
 .csv
 ./processed/*.csv
+processed/
+flagged/
