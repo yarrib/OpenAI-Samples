@@ -36,4 +36,4 @@ if st.button('Submit', key='generationSubmit'):
     st.write(summary['choices'][0]['text'])
 
     # Option to display raw table instead of summary from GPT-3
-    #st.table(result_df)
+    st.table(result_df)

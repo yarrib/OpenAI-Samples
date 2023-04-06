@@ -1,0 +1,24 @@
+name: openai_kickstarter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.8
+  - pandas=1.5.3
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - openai=0.27.1
+  - faiss-cpu
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+    - numpy==1.24.2
+    - redis==4.5.1
+    - requests==2.28.2
+    - streamlit==1.20.0
+    - streamlit_chat==0.0.2.2
+    - textract
+    - langchain
+    - tiktoken
+    - termcolor==2.2.0
